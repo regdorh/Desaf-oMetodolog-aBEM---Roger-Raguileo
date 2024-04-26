@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+}
+
+.navbar{
+    height: 50px;
+    padding-top: 10px;
+}
+
+.navbar__marca{
+    height: 50px;
+}
+
+.navbar__enlace{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; 
+    text-decoration: none;
+}
+
+.navbar__image{
+    border-radius: 5px;
+    margin-left: 103px;
+    box-shadow: 2px 4px 3px #888888;
+    margin-right: 5px;
+}
+
+.card{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.card__image{
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-body{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card-body__fecha{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.card-body__title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.card-body__enlace{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.card-body__logodelenlace{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 3px #888888;
+    margin-right: 5px;
+}
+
+.categorias{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.categorias__boton{
+    border-radius: 15px;
+}
+
+.categorias__nombretecnologia--letra{
+   color: white; 
+   font-size: x-large;
+   text-align: justify;
+}
+
+.categorias__nombretecnologia--letra:hover{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.categorias__image--mov:hover{
+    animation: latir infinite 5s linear;
+}
+
+@keyframes latir {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.02, 1.02);
+    }
+
+    55% {
+        transform: scale(0.95, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+
+}
+
+
+#primerboton{
+    background-color: #E93E30;
+}
+
+#segundoboton{
+    background-color: #F7E018;
+}
+
+#tercerboton{
+    background-color: #299ED5;
+}
+
+#cuartoboton{
+    background-color: #292C33;
+}
+
+#quintoboton{
+    background-color: #67C770;
+}
+
+#sextoboton{
+    background-color: #563D7C;
+}
+
+.footer-brand__nombreblog{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.footer-brand__image{
+    border-radius: 5px;
+    box-shadow: 2px 4px 3px #888888;
+    margin-right: 5px;
+}
+
+.footer-datos__empresayfecha{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
